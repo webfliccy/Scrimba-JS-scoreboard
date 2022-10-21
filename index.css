@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+
+html  {
+    font-size: 10px;
+} 
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.scoreboard {
+    text-align: center;
+    background: #1B244A;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    padding: 4rem 8rem;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.score {
+    text-align: center;
+}
+
+.score h3 {
+    font: 4rem Verdana, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.score-area {
+    background: #000;
+    text-align: center;
+    line-height: 1;
+    margin: 2rem 0;
+    padding: 1rem;
+    color: #F94F6D;
+    width: 15.5rem;
+    font: 9rem 'Cursed Timer ULiL', monospace;
+    border-radius: 5px; 
+}
+
+.score-area.leader {
+    outline: 1px solid #38BDF8;
+    box-shadow: 0 0 30px 15px #38BDF8;
+}
+
+.score-button {
+    cursor: pointer;
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+    font: 1.6rem 'Cursed Timer ULiL', monospace;
+    padding: .5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.score-button:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+.button-wide {
+    width: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 6px
+    }
+}
